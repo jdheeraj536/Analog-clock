@@ -7,6 +7,7 @@
     margin: auto;
     position: relative;
     top: 30px;
+    
 }
 #hour,#minute,#second{
     position: absolute;
@@ -35,5 +36,21 @@
     top: 9%;
     left: 49.25%;
     opacity: 0.8; 
+    background-color: red;
+    
+}
+#name{
+   position: absolute;
+   color: gold;
+   left: 45.5%;
+   top: 19%;
+   font-family: sans-serif;
+}
+@media screen and (min-width:360px) and (max-width : 680px) {
+    #name{
+        font-size: 9px;
+        position: absolute;
+        left: 41%;
+    }
     
 }
